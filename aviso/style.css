@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,800;1,900&display=swap');
+
+:root{
+  --font-corpo: 'Playfair Display', serif;
+  --font-literatura: 'Dancing Script', cursive;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b9b2b2;  
+}
+
+div#imgFundo{
+  background-image: url(../img/imagen001.png); 
+}
+
+div#header01{
+  margin: 10px;
+}
+
+header {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  text-align: center;
+  border-radius: 10px;
+}
+
+#textH1{
+  font-family: var(--font-corpo);
+  color: black;
+  font-size: 200%; 
+}
+
+a{
+  font-size: 120%;
+  color: white;;  
+}
+
+.aClass{
+  color: black;
+  font-size: 100%;
+}
+
+
+div.espaco{
+
+  height: 500px;
+}
+
+section {  
+  padding: 30px 0;
+  
+}
+
+article{
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.textH3{
+  font-family: var(--font-corpo);
+  text-align: justify;
+  font-size: 170%;
+  color: black;
+  font-weight: bold;  
+}
+
+.pFont{
+  font-family: var(--font-literatura);
+  text-align: justify;
+  font-size: 140%;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+
+  .textH1{
+    font-size: 150%;
+  }
+
+  .textH3{
+    font-size: 130%;
+    text-align: justify;
+  }
+
+  .pfont{
+    font-size: 90%;
+  }
+
+  
+}
+
+@media (max-width: 630px) {
+
+  #textH1{
+    font-size: 100%;
+  }
+
+  .textH3{
+    font-size: 110%;
+    text-align: justify;
+  }
+
+  .pfont{
+    font-size: 80%;
+  }
+
+  a{
+    font-size: 100%;
+  }
+
+
+}
+
+
+
